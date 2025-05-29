@@ -1,0 +1,196 @@
+[
+    //Spectator
+    {
+        "name": "Spectator",
+        "outerColor": [255,255,255]
+    },
+    //nations
+    
+	{
+		"name": "3er Reich",
+		"leaderName": "Adolf Hitler",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": " He was not a bad guy, he was only misunderstood.",
+		"startIntroPart2": "Oh, shit. Here we go again.",
+		"declaringWa": "Nain nain nain!",
+		"attacked": "Nain nain nain!.",
+		"defeated": "Nain nairn nain!.",
+		"introduction": "Nain nain nain!",
+		"tradeRequest": "Nain nain nain!",
+		"outerColor": [0,0,0],
+		"innerColor": [142,22,0],
+		"uniqueName": "Lebensraum",
+		"uniques": ["[+10]% growth [in annexed cities]","[-10]% Unhappiness from [Population] [in annexed cities]","[+10]% [Culture] [in annexed cities]"],
+		"cities": ["Berlín","Hamburgo","Múnich","Colonia","Fráncfort","Stuttgart","Baden-Wurtemberg","Düsseldorf","Leipzig","Dortmund","Essen","Renania","Bremen","Dresde","Sajonia","Hanóver","Núremberg"]
+	},
+
+	{
+		"name": "Argentina",
+		"leaderName": "San Martin",
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": ".",
+		"attacked": "",
+		"defeated": "",
+		"introduction": ".",
+		"tradeRequest": ".",
+		"outerColor": [139,0,0],
+		"innerColor": [0,0,0],
+		"uniqueName": "Libertador de America",
+		"uniques": ["[-33]% City-State Influence degradation <when at war>", "Militaristic City-States grant units [2] times as fast when you are at war with a common nation", "Earn [150]% of killed [Enemy] unit's [Strength] as [Culture] <when fighting units from a Civilization with more Cities than you>"],
+		"cities": ["Buenos Aires","La Plata","Cordoba","Jujuy","Catamarca","La Rioja","Formosa","Parana","Posadas","Neuquen","Salta","San Juan","San Luis","Santa Fe","Santiago del Estero","Ushuaia","Tucuman","Resistencia","Rawson","Santa Rosa","Viedma","Ushuaia"],
+	},
+	{
+		"name": "Fenicios",
+		"leaderName": "Hiram I",
+		"preferredVictoryType": "Diplomatic",
+		"startBias": ["Coast"],
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": ".",
+		"attacked": "",
+		"defeated": "",
+		"introduction": ".",
+		"tradeRequest": ".",
+		"outerColor": [139,0,0],
+		"innerColor": [0,0,0],
+		"uniqueName": "Conquistadores Comerciales",
+		"uniques": [ "[Great Merchant] Can Spread Religion <for [1] movement> <[1] times>","[Great Merchant] Removes other religions when spreading religion","[+50 Culture] from Great Merchant trade missions", "[+2 Gold] from each Trade Route","[+10]% [Production] in all cities connected to capital","Starts with [Sailing]"],
+		"cities": ["Tiro","Sidon","Cartago","Arados", "Trípoli", "Simyra", "Sarepta" , "Gabala", "Akko", "Berito","Ra's Samra"]
+	},
+
+	{
+		"name": "Sacro Imperio Romano-Germanico",
+		"leaderName": "Xxx",
+		"preferredVictoryType": "Diplomatic",
+		"startBias": ["Avoid [Coast]"],
+			
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": ".",
+		"attacked": "",
+		"defeated": "",
+		"introduction": ".",
+		"tradeRequest": ".",
+		"outerColor": [139,0,0],
+		"innerColor": [0,0,0],
+		"uniqueName": "Circulo Imperial",
+		"uniques": [ "[-33]% unhappiness from the number of cities",],
+		"cities": ["Praga","Augsburgo","Bremen","Colonia","Fráncfort","Hamburgo","Lübeck","Núremberg"]
+	},
+	
+	{
+		"name": "Roma",
+		"leaderName": "Julio Cesar",
+		"preferredVictoryType": "Domination",
+		"startBias": ["Coast"],
+			
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": ".",
+		"attacked": "",
+		"defeated": "",
+		"introduction": ".",
+		"tradeRequest": ".",
+		"outerColor": [139,0,0],
+		"innerColor": [0,0,0],
+		"uniqueName": "Adaptación Romana",
+		"uniques": [ "Comment: puede acceder a los arboles de cultura de otras naciones","Each city founded increases culture cost of policies [+20]% less than normal","[+20]% Production towards any buildings that already exist in the Capital"],
+		"cities": [ "Roma","Alejandría","Antioquía","Éfeso","Constantinopla","Tarragona","Mérida","Cartagena","Lugo"]
+	},
+	
+    
+    
+    
+    //City-States
+    {
+        "name": "Baku",
+        "adjective": ["Azerbaijani"],
+        "cityStateType": "Cultured",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [0, 0, 0],
+        "innerColor": [128, 179, 255],
+        "uniques": [],
+        "cities": ["Baku"]
+    },
+    
+    {
+        "name": "Bangkok",
+        "adjective": ["Bangkokian"],
+        "cityStateType": "Maritime",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [0, 0, 0],
+        "innerColor": [179, 154, 255],
+        "uniques": [],
+        "cities": ["Bangkok"]
+    },
+    
+    
+    {
+        "name": "Venecia",
+	"adjective": ["Venecianos"],
+        "cityStateType": "Mercantile",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [0, 0, 0],
+        "innerColor": [230, 230, 230],
+        "uniques": [],
+        "cities": ["Cahokia"]
+    },
+    
+    {
+        "name": "Andorra",
+        "adjective": ["Andorran"],
+        "cityStateType": "Militaristic",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [0, 0, 0],
+        "innerColor": [230, 166, 82],
+        "uniques": [],
+        "cities": ["Andorra"]
+    },
+    
+    {
+        "name": "Geneva",
+        "adjective": ["Geneva"],
+        "cityStateType": "Religious",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [0, 0, 0],
+        "innerColor": [25, 75, 235],
+        "uniques": [],
+        "cities": ["Geneva"]
+    },
+    
+    {
+        "name": "Kathmandu",
+        "adjective": ["Kathmandu"],
+        "cityStateType": "Religious",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [0, 0, 0],
+        "innerColor": [196, 87, 255],
+        "uniques": [],
+        "cities": ["Kathmandu"]
+    },
+    
+
+    //Barbarian
+    {
+        "name": "Barbarians",
+        "outerColor": [0,0,0],
+        "innerColor": [184,0,0],
+        "uniques": ["Can only heal by pillaging"]
+    }
+]
