@@ -25,11 +25,11 @@
             {
                 "name": "Colonias Comerciales",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in all coastal cities]"",
+                    "[+50]% Production when constructing [Settler] units [in all coastal cities]",
                     "Provides a [Harbor] in your first [4] cities for free"
                 ],
-                "row": 2,
-                "column": 1, 
+                "row": 1,
+                "column": 2, 
             },
             {
                 "name": "Lenguaje Simplificado",
@@ -37,8 +37,8 @@
                     "Each city founded increases Science cost of Technologies [+15]% less than normal",
                     "[+1 Gold, +1 Production, +1 Faith] per [8] population [in all cities]",
                 ],
-                "row": 3,
-                "column": 1
+                "row": 1,
+                "column": 3
             },
             {
                 "name": "ARBOL DE CULTURA FENICIA COMPLETADO",
@@ -78,8 +78,8 @@
                     "[+50]% Production when constructing [Settler] units [in all coastal cities]"",
                     "Provides a [Harbor] in your first [4] cities for free"
                 ],
-                "row": 2,
-                "column": 1, 
+                "row": 1,
+                "column": 2, 
             },
             {
                 "name": "Lenguaje Simplificado",
@@ -87,8 +87,8 @@
                     "Each city founded increases Science cost of Technologies [+15]% less than normal",
                     "[+1 Gold, +1 Production, +1 Faith] per [8] population [in all cities]",
                 ],
-                "row": 3,
-                "column": 1
+                "row": 1,
+                "column": 3
             },
             {
                 "name": "ARBOL DE CULTURA DEL SACRO IMPERIO COMPLETADO",
