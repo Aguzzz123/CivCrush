@@ -62,10 +62,10 @@
         ],
         "policies": [
             {
-                "name": "Ligación con el papado",
+                "name": "Vinculo con el papado",
                 "uniques": [
-                    "",
-                    
+                    "[+2 Faith] from every specialist [in all cities]",
+                    "[+20]% [Faith]"
                 ],
                 "row": 1,
                 "column": 1
